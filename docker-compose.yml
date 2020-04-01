@@ -1,8 +1,8 @@
 services:
   app:
     entrypoint: [bin/start]
-    image: greenlight-v2:release-4
-    container_name: greenlight-v2-1
+    image: bigbluebutton/greenlight:v2
+    container_name: scholiobbb
     env_file: .env
     restart: unless-stopped
     ports:
